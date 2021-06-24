@@ -1,0 +1,19 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type App {
+  message: String!
+}
+
+type Query {
+  getApp: App!
+}
+
+type Mutation {
+  createApp(message: String!): App!
+}
+
+type Subscription {
+  appCreated: App!
+}
